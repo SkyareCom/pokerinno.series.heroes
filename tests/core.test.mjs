@@ -1,0 +1,9 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {emptyData,loadHeroes,resolveRoute,readPreferences,savePreferences,hasResults,routes} from '../dist/model.js';
+test('no fabricated diagnostics or scores',async()=>{const {status,data}=await loadHeroes();assert.equal(status,'ready');assert.equal(data.dna,null);assert.equal(data.user,null);for(const key of ['spots','indicators','results','hands','interfaces','achievements'])assert.deepEqual(data[key],[]);assert.equal(hasResults(data),false)});
+test('all published routes resolve',()=>{for(const r of routes)assert.equal(resolveRoute('#'+r),r);assert.equal(resolveRoute('#bad'),'home')});
+test('adapter errors recover',async()=>{const s=await loadHeroes({load:async()=>{throw Error()}});assert.equal(s.status,'error');assert.deepEqual(s.data,emptyData())});
+test('invalid adapter response is rejected',async()=>assert.equal((await loadHeroes({load:async()=>null})).status,'error'));
+test('real results are retained',async()=>{const s=await loadHeroes({load:async()=>({results:[{id:'real',title:'Real'}]})});assert.equal(hasResults(s.data),true);assert.equal(s.data.results[0].id,'real');assert.deepEqual(s.data.spots,[])});
+test('malformed preferences are safe',()=>{assert.deepEqual(readPreferences({getItem:()=>'{bad'}),{format:'tournament',reducedMotion:false});assert.deepEqual(readPreferences({getItem:()=>{throw Error()}}),{format:'tournament',reducedMotion:false})});
+test('cash and motion preferences persist',()=>{let v;const s={setItem:(k,x)=>v=x,getItem:()=>v};assert.equal(savePreferences(s,{format:'cash',reducedMotion:true}),true);assert.deepEqual(readPreferences(s),{format:'cash',reducedMotion:true})});
+test('blocked storage is reported',()=>assert.equal(savePreferences({setItem:()=>{throw Error()}},{}),false));
