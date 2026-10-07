@@ -1,0 +1,12 @@
+{
+  "name": "StackUp Hold'em Heroes",
+  "short_name": "Heroes",
+  "description": "Descubra o seu Poker DNA com StackUp Hold'em Heroes.",
+  "lang": "pt-BR",
+  "start_url": "./#login",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#180d13",
+  "theme_color": "#180d13",
+  "orientation": "any"
+}
