@@ -1,0 +1,602 @@
+{
+  "languages": [
+    "pt-BR",
+    "en-US",
+    "es-ES"
+  ],
+  "keys": 10,
+  "errors": [],
+  "untranslatedCandidates": [
+    {
+      "file": "dist/app.js",
+      "line": 4,
+      "text": "',spots:'"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 4,
+      "text": "',analysis:'"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 4,
+      "text": "',dna:'"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 4,
+      "text": "',journey:'"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 4,
+      "text": "',profile:'"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 4,
+      "text": "',hands:'"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 4,
+      "text": "',interfaces:'"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 4,
+      "text": "',shield:'"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 8,
+      "text": "SÉRIE 02"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 9,
+      "text": "String(value??'').replace(/[&"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 9,
+      "text": "({'&':'&amp;','"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 10,
+      "text": "SUA HISTÓRIA COMEÇA AQUI"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 11,
+      "text": "TORNEIOS"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 11,
+      "text": "CASH GAME"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 13,
+      "text": "{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 13,
+      "text": "r.right||e.clientY"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 15,
+      "text": "CAPÍTULO 01 · RECONHEÇA SEU JOGO"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 15,
+      "text": "TODO JOGADOR"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 15,
+      "text": "TEM UM"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 15,
+      "text": "HERÓI."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 15,
+      "text": "QUAL É O SEU?"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 15,
+      "text": "POKERINNO ACOMPANHA VOCÊ NA DESCOBERTA DA SUA IDENTIDADE NA MESA."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 15,
+      "text": "INICIE O DIAGNÓSTICO."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 15,
+      "text": "SEU PODER ESTÁ NAS SUAS DECISÕES."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 15,
+      "text": "ESCOLHA SUA PRÓXIMA MISSÃO."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 15,
+      "text": "SEU JOGO. SEU CAMINHO."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 15,
+      "text": "`).join('')}"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 15,
+      "text": "SUA JORNADA NO HEROES"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 15,
+      "text": "OBSERVAR → DESCOBRIR → EVOLUIR"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 15,
+      "text": "PRIMEIRO CONHEÇA SEU JOGO. DEPOIS, ESCOLHA COMO EVOLUIR."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 17,
+      "text": "ESCOLHA SEU FORMATO"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 17,
+      "text": "ONDE VOCÊ JOGA?"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 17,
+      "text": "A JORNADA RESPEITA A DINÂMICA DA SUA MESA."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 17,
+      "text": "DECIDA NA MESA"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 17,
+      "text": "ENFRENTE OS SPOTS DISPONÍVEIS NO MOTOR."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 17,
+      "text": "RECONHEÇA SEUS PADRÕES"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 17,
+      "text": "VEJA A LEITURA DAS SUAS DECISÕES."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 17,
+      "text": "DESCUBRA SEU POKER DNA"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 17,
+      "text": "CONHEÇA SUA IDENTIDADE A PARTIR DO JOGO REAL."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 17,
+      "text": "EXPLORAR A PROVA DE SPOTS"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 17,
+      "text": "POKERINNO TEM UM CONVITE"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 17,
+      "text": "CONHECER SEU JOGO"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 17,
+      "text": "É O PRIMEIRO PODER."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 17,
+      "text": "SEUS RESULTADOS APARECERÃO APÓS SUAS DECISÕES REAIS."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 19,
+      "text": "TENTAR NOVAMENTE →"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 22,
+      "text": "`).join('')}"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 22,
+      "text": "`+(hasResults(state.data)?`"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 22,
+      "text": "`).join('')}"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 23,
+      "text": "IDENTIDADE EM CONSTRUÇÃO"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 23,
+      "text": "SEU ARQUÉTIPO"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 23,
+      "text": "AINDA SERÁ REVELADO."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 23,
+      "text": "UM PERFIL SÓ FAZ SENTIDO QUANDO REFLETE SUAS DECISÕES. COMECE PELA SUA PRIMEIRA MISSÃO."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 23,
+      "text": "CONHECER MINHA MISSÃO →"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 23,
+      "text": "IDENTIDADE"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 23,
+      "text": "AGUARDANDO DIAGNÓSTICO"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 23,
+      "text": "EVOLUÇÃO"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 23,
+      "text": "SEM ATIVIDADES REGISTRADAS"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 23,
+      "text": "CONQUISTAS"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 23,
+      "text": "SUA HISTÓRIA VAI COMEÇAR"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 24,
+      "text": "COMO FUNCIONA? ↗"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 25,
+      "text": "CONHECER A INTEGRAÇÃO ↗"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 26,
+      "text": "`).join('')}"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 26,
+      "text": "CADA PRODUTO TEM SUA PRÓPRIA PROPOSTA. SUA JORNADA NÃO EXIGE CONCLUIR UM APP PARA EXPLORAR O OUTRO."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 26,
+      "text": "STACKUP HOLD’EM · SÉRIE POKERINNO"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 27,
+      "text": "SEU PRÓXIMO CAPÍTULO"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 27,
+      "text": "OLÁ, JOGADOR."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 27,
+      "text": "GERENCIE SUA CONTA, HISTÓRICO E PREFERÊNCIAS."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 27,
+      "text": "ACESSAR CONTA →"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 27,
+      "text": "FORMATO DE JOGO"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 27,
+      "text": "DEFINE O CONTEXTO DA SUA MISSÃO."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 27,
+      "text": "REDUZIR MOVIMENTOS"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 27,
+      "text": "UMA EXPERIÊNCIA COM MENOS ANIMAÇÕES."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 27,
+      "text": "HISTÓRICO"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 27,
+      "text": "SUAS ATIVIDADES REAIS FICARÃO AQUI."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 27,
+      "text": "CONSULTAR ↗"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 27,
+      "text": "CONTA STACKUP ID"
+    },
+    {
+      "file": "dist/app.js",
+      "line": 27,
+      "text": "E-MAIL, ACESSO E SINCRONIZAÇÃO."
+    },
+    {
+      "file": "dist/app.js",
+      "line": 27,
+      "text": "ACESSAR ↗"
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 8,
+      "text": "StackUp Heroes · Demonstração"
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 22,
+      "text": "STACKUP HOLD’EM · HEROES"
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 23,
+      "text": "VOLTAR AO LOGIN"
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 28,
+      "text": "DEMONSTRAÇÃO VISUAL"
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 29,
+      "text": "DESCUBRA O SEU POKER DNA."
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 30,
+      "text": "CONHEÇA A EXPERIÊNCIA VISUAL DO HEROES SEM CARREGAR DADOS DE CONTA."
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 35,
+      "text": "ACESSO TEMPORÁRIO · CONTEÚDO DEMONSTRATIVO · SEM DADOS PESSOAIS"
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 40,
+      "text": "POKERINNO · HEROES"
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 41,
+      "text": "TODO JOGADOR"
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 41,
+      "text": "TEM UM"
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 41,
+      "text": "HERÓI."
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 41,
+      "text": "QUAL É O SEU?"
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 42,
+      "text": "SUAS DECISÕES CONTAM UMA HISTÓRIA. CONHEÇA A PROPOSTA DO HEROES."
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 49,
+      "text": "PROVA DE SPOTS"
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 50,
+      "text": "DECISÕES NA MESA PARA ALIMENTAR O SEU POKER DNA."
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 54,
+      "text": "ANÁLISE DE JOGO"
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 55,
+      "text": "AVALIAÇÃO DETALHADA DAS AÇÕES E DA ESTRUTURA DE ANÁLISE."
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 59,
+      "text": "SEU POKER DNA"
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 60,
+      "text": "IDENTIDADE, ARQUÉTIPO E EVOLUÇÃO PESSOAL."
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 64,
+      "text": "PERFIL E AJUSTES"
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 65,
+      "text": "CONTA, HISTÓRICO E PREFERÊNCIAS."
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 69,
+      "text": "VOLTAR AO LOGIN →"
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 71,
+      "text": "STACKUP HOLD’EM HEROES"
+    },
+    {
+      "file": "dist/demo.html",
+      "line": 71,
+      "text": "DEMONSTRAÇÃO VISUAL."
+    },
+    {
+      "file": "dist/index.html",
+      "line": 1,
+      "text": "StackUp Heroes · Seu Poker DNA"
+    },
+    {
+      "file": "dist/index.html",
+      "line": 1,
+      "text": "STACKUP HOLD’EM"
+    },
+    {
+      "file": "dist/index.html",
+      "line": 1,
+      "text": "SÉRIE 02 · TEXAS HOLD’EM"
+    },
+    {
+      "file": "dist/index.html",
+      "line": 1,
+      "text": "CADA JOGADOR TEM UMA HISTÓRIA."
+    },
+    {
+      "file": "dist/index.html",
+      "line": 1,
+      "text": "A SUA COMEÇA"
+    },
+    {
+      "file": "dist/index.html",
+      "line": 1,
+      "text": "COM AS SUAS DECISÕES."
+    },
+    {
+      "file": "dist/index.html",
+      "line": 1,
+      "text": "CONHEÇA SEU ANFITRIÃO ↗"
+    },
+    {
+      "file": "dist/index.html",
+      "line": 1,
+      "text": "SEU JOGO TEM UMA IDENTIDADE."
+    },
+    {
+      "file": "dist/index.html",
+      "line": 1,
+      "text": "STACKUP HOLD’EM HEROES"
+    },
+    {
+      "file": "dist/index.html",
+      "line": 1,
+      "text": "OBSERVE. DESCUBRA. EVOLUA."
+    },
+    {
+      "file": "dist/index.html",
+      "line": 1,
+      "text": "POKERINNO · SEU ANFITRIÃO"
+    },
+    {
+      "file": "dist/index.html",
+      "line": 1,
+      "text": "CONTINUAR"
+    },
+    {
+      "file": "dist/login.js",
+      "line": 3,
+      "text": "`).join('')}"
+    },
+    {
+      "file": "dist/login.js",
+      "line": 3,
+      "text": "ACESSO LIVRE AO APP →"
+    },
+    {
+      "file": "dist/swipe.js",
+      "line": 2,
+      "text": "{if(!start||e.pointerId!==start.id)return;const x=e.clientX-start.x,y=e.clientY-start.y;start=null;if(!enabled()||Math.abs(x)"
+    },
+    {
+      "file": "dist/swipe.js",
+      "line": 2,
+      "text": "=0&&next"
+    }
+  ],
+  "note": "Candidatos exigem revisão humana; a varredura não comprova cobertura de todo texto dinâmico ou atributos."
+}
