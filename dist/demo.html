@@ -5,23 +5,70 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#180d13">
 <meta name="color-scheme" content="dark">
-<meta name="mobile-web-app-capable" content="yes">
 <title>StackUp Heroes · Demonstração</title>
 <link rel="stylesheet" href="styles.css">
+<style>
+.demo-shell{margin-left:0;max-width:100%}
+.demo-note{margin:0 0 18px;padding:12px 14px;border:1px solid #8d654b;border-radius:8px;background:#2f1923;color:var(--gold);font-size:10px;letter-spacing:.08em;text-align:center}
+.demo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.demo-grid .feature{min-height:150px}
+.demo-back{display:inline-flex;margin-top:24px}
+@media(max-width:700px){.demo-grid{grid-template-columns:1fr 1fr}.demo-shell main{padding-bottom:40px}}
+</style>
 </head>
 <body>
-<aside class="sidebar">
-  <a class="brand" href="#home"><span class="spade">♠</span><span><span class="brand-parent">STACKUP HOLD’EM</span><small>HEROES</small></span></a>
-  <div class="series">SÉRIE 02 · TEXAS HOLD’EM</div>
-  <nav id="navigation" aria-label="Navegação de demonstração"></nav>
-  <div class="side-bottom"><span class="tiny">MODO DEMONSTRAÇÃO</span><p>EXPLORE O FRONT SEM CONTA.</p><a class="quiet" href="index.html#login">VOLTAR AO LOGIN ↗</a></div>
-</aside>
-<div class="workspace">
-  <header><span class="breadcrumb">MODO DEMONSTRAÇÃO · SEM DADOS DE CONTA</span><div class="header-actions"><a class="quiet" href="index.html#login">LOGIN</a></div></header>
-  <main id="app" aria-live="polite"></main>
-  <footer>STACKUP HOLD’EM HEROES <span>DEMONSTRAÇÃO PÚBLICA.</span></footer>
+<div class="workspace demo-shell">
+<header>
+<span class="breadcrumb">STACKUP HOLD’EM · HEROES</span>
+<div class="header-actions"><a class="quiet" href="index.html#login">VOLTAR AO LOGIN</a></div>
+</header>
+<main>
+<div class="page-heading">
+<div>
+<span class="eyebrow">DEMONSTRAÇÃO VISUAL</span>
+<h1>DESCUBRA O SEU POKER DNA.</h1>
+<p>CONHEÇA A EXPERIÊNCIA VISUAL DO HEROES SEM CARREGAR DADOS DE CONTA.</p>
 </div>
-<nav class="mobile-nav" id="mobile-navigation" aria-label="Navegação do rodapé"></nav>
-<script type="module" src="demo.js"></script>
+<span class="chapter-tag">HEROES</span>
+</div>
+
+<div class="demo-note">ACESSO TEMPORÁRIO · CONTEÚDO DEMONSTRATIVO · SEM DADOS PESSOAIS</div>
+
+<section class="hero heroes-hero">
+<img class="hero-image" src="assets/pokerino-heroes.webp" alt="Pokerinno Heroes">
+<div class="hero-copy">
+<span class="eyebrow">POKERINNO · HEROES</span>
+<h2>TODO JOGADOR<br>TEM UM <em>HERÓI.</em><br>QUAL É O SEU?</h2>
+<p>SUAS DECISÕES CONTAM UMA HISTÓRIA. CONHEÇA A PROPOSTA DO HEROES.</p>
+</div>
+</section>
+
+<div class="demo-grid">
+<div class="feature">
+<span class="mission-number">01</span>
+<h3>PROVA DE SPOTS</h3>
+<p>DECISÕES NA MESA PARA ALIMENTAR O SEU POKER DNA.</p>
+</div>
+<div class="feature">
+<span class="mission-number">02</span>
+<h3>ANÁLISE DE JOGO</h3>
+<p>AVALIAÇÃO DETALHADA DAS AÇÕES E DA ESTRUTURA DE ANÁLISE.</p>
+</div>
+<div class="feature">
+<span class="mission-number">03</span>
+<h3>SEU POKER DNA</h3>
+<p>IDENTIDADE, ARQUÉTIPO E EVOLUÇÃO PESSOAL.</p>
+</div>
+<div class="feature">
+<span class="mission-number">04</span>
+<h3>PERFIL E AJUSTES</h3>
+<p>CONTA, HISTÓRICO E PREFERÊNCIAS.</p>
+</div>
+</div>
+
+<a class="primary demo-back" href="index.html#login">VOLTAR AO LOGIN →</a>
+</main>
+<footer>STACKUP HOLD’EM HEROES <span>DEMONSTRAÇÃO VISUAL.</span></footer>
+</div>
 </body>
 </html>
