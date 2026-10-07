@@ -53,3 +53,10 @@ html{min-height:100%;background:var(--bg)}body{min-height:100dvh;overscroll-beha
 /* Explicit uppercase for buttons and card titles */
 button,.primary,.quiet,.entry-buttons button,.entry-form form button,.entry-languages button{text-transform:uppercase}
 .feature h3,.chapter h3,.trail-preview h3,.journey-strip h3,.mission-step h3,.setting h3,.profile-intro h2,.empty h2,.next-app strong{text-transform:uppercase}
+
+
+/* Cabin Sketch tracking */
+body{letter-spacing:.035em}
+h1,h2,h3,.brand,.brand small,.eyebrow,.breadcrumb,.series,.chapter-tag,.mission-number{letter-spacing:.06em}
+button,.primary,.quiet,.nav-link,.mobile-nav a,.entry-buttons button,.entry-form form button,.entry-languages button{letter-spacing:.075em}
+p,.feature p,.chapter p,.setting p,.profile-intro p,.empty p,.hero-copy p{letter-spacing:.025em}
